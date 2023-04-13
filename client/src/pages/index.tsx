@@ -1,7 +1,14 @@
+import { Button } from "@mui/material";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello!
-    </main>
+    <>
+      <div className="px-20 py-10">
+        <div className="pb-10">
+          aaaa
+        </div>
+        <Button href="/exhibitions" variant="contained" color="info" fullWidth>ログイン</Button>
+      </div>
+    </>
   )
 }
